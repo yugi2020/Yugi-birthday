@@ -1,6 +1,6 @@
 html{
     scroll-behavior: smooth;
-	transition:all 0.5s ease-out;
+	overflow: hidden;
 }
 body{
     margin:0;
