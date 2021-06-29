@@ -81,3 +81,21 @@ ul li a{
 }
 #twelve{
 	background: brown;
+}
+.land{
+	display:none;
+}
+
+@media screen and (orientation:landscape){
+	.land{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height:100vh;
+		width: 100vw;
+		margin:0;
+	}
+	.container{
+		display: none;
+	}
+}
