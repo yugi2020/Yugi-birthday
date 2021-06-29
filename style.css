@@ -40,26 +40,21 @@ ul li a{
     float:left;
     width:100%;
     position: absolute;
-    top:50px;
+    top:0px;
 }
-#top{
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten{
     height:100vh;
     background: red;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#middle{
-    height:100vh;
+#two{
     background: blue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-#bottom{
-    height:100vh;
+#three{
     background: green;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
+#four{
+    background: yellow;
 }
