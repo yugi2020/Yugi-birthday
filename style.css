@@ -42,7 +42,7 @@ ul li a{
     position: absolute;
     top:0px;
 }
-#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten{
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten, #eleven, #twelve{
     height:100vh;
     background: red;
     display: flex;
@@ -65,5 +65,19 @@ ul li a{
 	background: magenta;
 }
 #seven{
-	
+	background: grey;
 }
+#eight{
+	background: orange;
+}
+#nine{
+	background: pink;
+}
+#ten{
+	background: violet;
+}
+#eleven{
+	background: indigo;
+}
+#twelve{
+	background: brown;
