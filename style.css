@@ -46,7 +46,7 @@ ul li a{
 }
 .active{
 	box-shadow: 0px 0px 4px #45a921;
-    background-image: linear-gradient(grey 100%, white 10%);
+    background-image: linear-gradient(grey 10%, white 100%);
     border: 1px solid #65bb46;
 }
 .active a{
