@@ -83,8 +83,36 @@ ul li a{
 	transition: all 0.5s ease-in-out;
 }
 .img1{
-	float:left;
-	width:150px;
+	position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.polaroid {
+  background: #fff;
+  padding: 1rem;
+  box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+}
+.polaroid > img{
+  max-width: 100%;
+  height: auto;
+}
+.caption {
+  height:30px;
+}
+.item {
+  width: 100%;
+  display: inline-block;
+  /*margin-top: 2rem;*/
+  filter: grayscale(100%);
+}
+.item:nth-of-type(4n+1) {
+  transform: scale(0.5, 0.5) rotate(12deg);
+  transition: all 0.35s;
+}
+.item:hover {
+  filter: none;
+  transform: scale(1, 1) rotate(0deg) !important;
+  transition: all 0.35s;
 }
 /*#two{
     background: blue;
