@@ -11,7 +11,7 @@
         <div class="container">
             <nav>
                 <ul>
-                    <li><a href="#one">1</a></li>
+                    <li class="active"><a href="#one">1</a></li>
                     <li><a href="#two">2</a></li>
                     <li><a href="#three">3</a></li>
 					<li><a href="#four">4</a></li>
@@ -40,5 +40,14 @@
 				<div id="twelve">Twelve</div>
             </div>
         </div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('ul li').click(function(){
+					$('.active').removeClass('active');	
+					$(this).addClass('active');
+				});
+			});
+		</script>
     </body>
 </html>

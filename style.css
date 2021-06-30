@@ -35,13 +35,24 @@ ul li{
     text-align: center;
     margin-bottom: 15px;
 	background-image: linear-gradient(white 10%, grey 100%);
-	border-radius: 50%;
-	border:1px solid #000;
+	border-radius: 25%;
+	border:1px solid #848484;
 	padding: 2px;
 }
 ul li a{
     text-decoration: none;
     color:black;
+	font-size:14px;
+}
+.active{
+	box-shadow: 0px 0px 4px #45a921;
+    background-image: linear-gradient(grey 100%, white 10%);
+    border: 1px solid #65bb46;
+}
+.active a{
+	color:red;
+	font-weight: bold;
+	text-shadow: 0px 0px 3px #fff;
 }
 .content{
     float:left;
