@@ -27,7 +27,13 @@
                 </ul>
             </nav>
             <div class="content">
-				<div class="back-btn"><img src="images/back.png" alt="back" /></div>
+				
+				<div class="door">
+					<div class="left-door"></div>
+					<div class="back-btn"><img src="images/back.png" alt="back" /></div>
+					<div class="right-door"></div>
+				</div>
+				
                 <div id="one">
 					<div class="img1">
 					  <div class="item">
@@ -73,8 +79,10 @@
 				});
 				
 				$('.back-btn').click(function(){
-					$('nav').addClass('move');
 					$(this).hide(700);
+					$('nav').addClass('move');
+					$('.left-door').toggleClass('left-door-close');
+					$('.right-door').toggleClass('right-door-close');
 				});
 				
 				$('.item').click(function(){
