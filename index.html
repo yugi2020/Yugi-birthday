@@ -35,6 +35,7 @@
 						</div>
 					  </div>
 					</div>
+					
 				</div>
                 <div id="two">Two</div>
                 <div id="three">Three</div>
@@ -60,6 +61,10 @@
 				$('.back-btn').click(function(){
 					$('nav').addClass('move');
 					$(this).hide(700);
+				});
+				
+				$('.item').click(function(){
+					$(this).toggleClass("enlarge");
 				});
 				
 			});
