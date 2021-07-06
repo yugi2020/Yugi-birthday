@@ -125,7 +125,7 @@ ul li a{
   transition: all 1s;
   transform: scale(1, 1) rotate(0deg) !important;
   z-index: 9999999;
-  left:0 !important;
+  left:5px !important;
 }
 .img1 .item{
 	transform: scale(0.5, 0.5) rotate(-24deg);
