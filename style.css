@@ -85,9 +85,9 @@ ul li a{
 .img1{
 	position: absolute;
     height: 0;
-	top: -80px;
-  left: -40px;
-  width: 80%;
+    top: 1%;
+    left: 5%;
+    width: 80%;
 }
 .img2{
 	top:10px;
@@ -96,9 +96,7 @@ ul li a{
   background: #fff;
   padding: 1rem;
   box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
-  top: -80px;
-  left: -40px;
-  width: 80%;
+  width: 100%;
 }
 .polaroid > img{
   max-width: 100%;
