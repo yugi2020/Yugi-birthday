@@ -29,6 +29,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 9999999;
 }
 ul{
     list-style: none;
@@ -125,7 +126,7 @@ ul li a{
   transition: all 1s;
   transform: scale(1, 1) rotate(0deg) !important;
   z-index: 9999999;
-  left:5px !important;
+  left:6px !important;
 }
 .img1 .item{
 	transform: scale(0.5, 0.5) rotate(-24deg);
