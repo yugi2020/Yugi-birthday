@@ -86,6 +86,7 @@ ul li a{
 .right-door{
     transform: translateX(100vw);
     width:0;
+    right:50vw;
 }
 .left-door-close{
     transform: translateX(0vw);
