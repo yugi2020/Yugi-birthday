@@ -35,21 +35,21 @@
 					<div class="right-door"></div>
 				</div>
                 <div id="one">
-					<div class="year-one-img1">
+					<div class="m-one-img1">
 					  <div class="item">
 						<div class="polaroid"><img src="images/img1.jpg" alt="img1" />
 						  <div class="caption"></div>
 						</div>
 					  </div>
 					</div>
-					<div class="year-one-img2">
+					<div class="m-one-img2">
 						<div class="item">
 							<div class="polaroid"><img src="images/img1.jpg" alt="img1" />
 							<div class="caption"></div>
 							</div>
 						</div>
 					</div>
-					<div class="year-one-img3">
+					<div class="m-one-img3">
 						<div class="item">
 							<div class="polaroid"><img src="images/img1.jpg" alt="img1" />
 							<div class="caption"></div>
@@ -58,27 +58,27 @@
 					</div>
 				</div>
                 <div id="two">
-					<!--<div class="year-two-img1">
+					<div class="m-two-img1">
 						<div class="item">
-						  <div class="polaroid"><img src="images/img1.jpg" alt="img1" />
-							<div class="caption"></div>
-						  </div>
+							<div class="polaroid"><img src="images/img1.jpg" alt="img1" />
+								<div class="caption"></div>
+							</div>
 						</div>
-					  </div>
-					  <div class="year-two-img2">
-						  <div class="item">
-							  <div class="polaroid"><img src="images/img1.jpg" alt="img1" />
-							  <div class="caption"></div>
-							  </div>
-						  </div>
-					  </div>
-					  <div class="year-two-img3">
-						  <div class="item">
-							  <div class="polaroid"><img src="images/img1.jpg" alt="img1" />
-							  <div class="caption"></div>
-							  </div>
-						  </div>
-					  </div>-->
+					</div>
+					<div class="m-two-img2">
+						<div class="item">
+							<div class="polaroid"><img src="images/img1.jpg" alt="img1" />
+								<div class="caption"></div>
+							</div>
+						</div>
+					</div>
+					<div class="m-two-img3">
+						<div class="item">
+							<div class="polaroid"><img src="images/img1.jpg" alt="img1" />
+								<div class="caption"></div>
+							</div>
+						</div>
+					</div>
 				</div>
                 <div id="three">Three</div>
 				<div id="four">Four</div>
@@ -109,7 +109,7 @@
 
 				// 1st Year
 				
-				$('#one-btn').click(function(){
+				$('#one-btn, #two-btn').click(function(){
 					$('.left-door').removeClass('left-door-close');
 					$('.right-door').removeClass('right-door-close');
 					$('.left-door').toggleClass('left-door-open');
@@ -121,9 +121,7 @@
 
 				// 2nd Year
 
-				$('#two-btn').click(function(){
-
-				});
+				
 				
 				// Back-btn
 
