@@ -79,26 +79,39 @@
 					$(this).addClass('active');
 				});
 
+				// Welcome Content
+
 				$('.door-content').click(function(){
 					$(this).hide();
 					$('nav').addClass('move');
 				});
 
+				// 1st Year
+				
 				$('#one-btn').click(function(){
+					$('.left-door').removeClass('left-door-close');
+					$('.right-door').removeClass('right-door-close');
 					$('.left-door').toggleClass('left-door-open');
 					$('.right-door').toggleClass('right-door-open');
 					$('nav').removeClass('move');
 					$('nav').addClass('move-in');
+					$('.back-btn').show(700);
 				});
 				
+				// Back-btn
+
 				$('.back-btn').click(function(){
 					$(this).hide(700);
 					$('nav').removeClass('move-in');
+					$('.left-door').removeClass('left-door-open');
+					$('.right-door').removeClass('right-door-open');
 					$('.left-door').toggleClass('left-door-close');
 					$('.right-door').toggleClass('right-door-close');
 					$('nav').addClass('move');
 				});
 				
+				// Image Enlarge
+
 				$('.item').click(function(){
 					$(this).toggleClass("enlarge");
 				});
