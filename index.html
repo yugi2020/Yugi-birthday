@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel" rel="stylesheet">
 		<link href="css/reset.css" rel="stylesheet" />
         <link href="css/style.css" rel="stylesheet" />
         <title>Single Page Scrolling</title>
@@ -13,7 +14,7 @@
             <nav>
                 <ul>
                     <li><a href="#one" id="one-btn">1</a></li>
-                    <li><a href="#two">2</a></li>
+                    <li><a href="#two" id="two-btn">2</a></li>
                     <li><a href="#three">3</a></li>
 					<li><a href="#four">4</a></li>
 					<li><a href="#five">5</a></li>
@@ -27,30 +28,28 @@
                 </ul>
             </nav>
             <div class="content">
-				<div class="door-content">YUGI'S BIRTHDAY PICS</div>
+				<div class="door-content"><h1 class="welcome-text">YUGI ABHIMANYU</h1></div>
 				<div class="door">
-					
 					<div class="left-door"></div>
 					<div class="back-btn"><img src="images/back.png" alt="back" /></div>
 					<div class="right-door"></div>
 				</div>
-				
                 <div id="one">
-					<div class="img1">
+					<div class="year-one-img1">
 					  <div class="item">
 						<div class="polaroid"><img src="images/img1.jpg" alt="img1" />
 						  <div class="caption"></div>
 						</div>
 					  </div>
 					</div>
-					<div class="img2">
+					<div class="year-one-img2">
 						<div class="item">
 							<div class="polaroid"><img src="images/img1.jpg" alt="img1" />
 							<div class="caption"></div>
 							</div>
 						</div>
 					</div>
-					<div class="img3">
+					<div class="year-one-img3">
 						<div class="item">
 							<div class="polaroid"><img src="images/img1.jpg" alt="img1" />
 							<div class="caption"></div>
@@ -58,7 +57,29 @@
 						</div>
 					</div>
 				</div>
-                <div id="two">Two</div>
+                <div id="two">
+					<!--<div class="year-two-img1">
+						<div class="item">
+						  <div class="polaroid"><img src="images/img1.jpg" alt="img1" />
+							<div class="caption"></div>
+						  </div>
+						</div>
+					  </div>
+					  <div class="year-two-img2">
+						  <div class="item">
+							  <div class="polaroid"><img src="images/img1.jpg" alt="img1" />
+							  <div class="caption"></div>
+							  </div>
+						  </div>
+					  </div>
+					  <div class="year-two-img3">
+						  <div class="item">
+							  <div class="polaroid"><img src="images/img1.jpg" alt="img1" />
+							  <div class="caption"></div>
+							  </div>
+						  </div>
+					  </div>-->
+				</div>
                 <div id="three">Three</div>
 				<div id="four">Four</div>
 				<div id="five">Five</div>
@@ -97,6 +118,12 @@
 					$('nav').addClass('move-in');
 					$('.back-btn').show(700);
 				});
+
+				// 2nd Year
+
+				$('#two-btn').click(function(){
+
+				});
 				
 				// Back-btn
 
@@ -108,6 +135,7 @@
 					$('.left-door').toggleClass('left-door-close');
 					$('.right-door').toggleClass('right-door-close');
 					$('nav').addClass('move');
+					$('.active').removeClass('active');
 				});
 				
 				// Image Enlarge
