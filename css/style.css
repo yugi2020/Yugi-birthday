@@ -165,8 +165,8 @@ ul li a{
     display: inline-block;
     transition: all 1s;
     position: absolute;
-    left: -20px;
-    top: 0px;
+    left: -50px;
+    top: -150px;
     z-index: 999;
   }
 .enlarge{
@@ -176,19 +176,20 @@ ul li a{
   transform: scale(1, 1) rotate(0deg) !important;
   z-index: 9998;
   left:8px !important;
+  top:0 !important;
 }
 .img1 .item{
-	transform: scale(0.5, 0.5) rotate(-24deg);
+	transform: scale(0.5, 0.5) rotate(0deg);
 }
 .img2 .item{
-    transform: scale(0.5, 0.5) rotate(-2deg);
+    transform: scale(0.5, 0.5) rotate(5deg);
     left: 20px;
-    top: 30px;
+    top: 0px;
 }
 .img3 .item{
 	transform: scale(0.5, 0.5) rotate(18deg);
-    top: 0px;
-    left: 54px;
+    top: 80px;
+    left: 45px;
 }
 /*.item:hover {
   filter: none;
