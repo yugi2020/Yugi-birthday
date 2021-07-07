@@ -12,7 +12,7 @@
         <div class="container">
             <nav>
                 <ul>
-                    <li class="active"><a href="#one">1</a></li>
+                    <li><a href="#one" id="one-btn">1</a></li>
                     <li><a href="#two">2</a></li>
                     <li><a href="#three">3</a></li>
 					<li><a href="#four">4</a></li>
@@ -27,8 +27,9 @@
                 </ul>
             </nav>
             <div class="content">
-				
+				<div class="door-content">YUGI'S BIRTHDAY PICS</div>
 				<div class="door">
+					
 					<div class="left-door"></div>
 					<div class="back-btn"><img src="images/back.png" alt="back" /></div>
 					<div class="right-door"></div>
@@ -77,12 +78,25 @@
 					$('.active').removeClass('active');	
 					$(this).addClass('active');
 				});
+
+				$('.door-content').click(function(){
+					$(this).hide();
+					$('nav').addClass('move');
+				});
+
+				$('#one-btn').click(function(){
+					$('.left-door').toggleClass('left-door-open');
+					$('.right-door').toggleClass('right-door-open');
+					$('nav').removeClass('move');
+					$('nav').addClass('move-in');
+				});
 				
 				$('.back-btn').click(function(){
 					$(this).hide(700);
-					$('nav').addClass('move');
+					$('nav').removeClass('move-in');
 					$('.left-door').toggleClass('left-door-close');
 					$('.right-door').toggleClass('right-door-close');
+					$('nav').addClass('move');
 				});
 				
 				$('.item').click(function(){
