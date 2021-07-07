@@ -8,7 +8,7 @@ html{
 body{
     margin:0;
     padding:0;
-    font-family: Arial, Helvetica, sans-serif;
+   /* font-family: 'Lovers Quarrel', cursive;*/
 }
 img{
 	width:100%;
@@ -94,15 +94,14 @@ ul li a{
 }
 .right-door{
     transform: translateX(50vw);
-    /*width:0;
-    right:50vw;
-    float:right;*/
 }
 .left-door-open{
     transform: translateX(-50vw);
+    transition-delay: 1s;
 }
 .right-door-open{
     transform: translateX(100vw);
+    transition-delay: 1s;
 }
 .left-door-close{
     transform: translateX(0vw);
@@ -132,18 +131,31 @@ ul li a{
 	transition: all 1s ease-in-out;
     /*transition-delay: .5s;*/
 }
-.img1, .img2, .img3{
+.year-one-img1, .year-one-img2, .year-one-img3{
 	position: absolute;
     height: 0;
     top: 1%;
     left: -5px;
     width: 90%;
 }
-.img2{
+.year-one-img2{
 	top:30px;
 }
-.img3{
+.year-one-img3{
 	top: 70px;
+}
+.year-one-img1 .item{
+	transform: scale(0.5, 0.5) rotate(-5deg);
+}
+.year-one-img2 .item{
+    transform: scale(0.5, 0.5) rotate(5deg);
+    left: 20px;
+    top: 0px;
+}
+.year-one-img3 .item{
+	transform: scale(0.5, 0.5) rotate(18deg);
+    top: 60px;
+    left: 45px;
 }
 .polaroid {
   background: #fff;
@@ -165,8 +177,8 @@ ul li a{
     display: inline-block;
     transition: all 1s;
     position: absolute;
-    left: -50px;
-    top: -150px;
+    left: -20px;
+    top: -120px;
     z-index: 999;
   }
 .enlarge{
@@ -175,21 +187,13 @@ ul li a{
   transition: all 1s;
   transform: scale(1, 1) rotate(0deg) !important;
   z-index: 9998;
-  left:8px !important;
+  left:6px !important;
   top:0 !important;
 }
-.img1 .item{
-	transform: scale(0.5, 0.5) rotate(0deg);
-}
-.img2 .item{
-    transform: scale(0.5, 0.5) rotate(5deg);
-    left: 20px;
-    top: 0px;
-}
-.img3 .item{
-	transform: scale(0.5, 0.5) rotate(18deg);
-    top: 80px;
-    left: 45px;
+.welcome-text{
+    font-size:24px;
+    font-style: normal;
+    font-weight: 400;
 }
 /*.item:hover {
   filter: none;
