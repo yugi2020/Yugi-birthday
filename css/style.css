@@ -166,30 +166,24 @@ ul li a{
     top:30px;
 }
 .m-two-img1 .item{
-	transform: scale(0.5, 0.5) rotate(-5deg);
+    transform: scale(0.5, 0.5) rotate(-20deg);
+    width: 100%;
+    display: inline-block;
+    transition: all 1s;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    z-index: 999;
 }
 .m-two-img2 .item{
-    transform: scale(0.5, 0.5) rotate(5deg);
+    transform: scale(0.5, 0.5) rotate(0deg);
     left: 20px;
     top: 0px;
 }
 .m-two-img3 .item{
 	transform: scale(0.5, 0.5) rotate(18deg);
-    top: 60px;
-    left: 45px;
-}
-.polaroid {
-  background: #fff;
-  padding: 1rem;
-  box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
-  width: 100%;
-}
-.polaroid > img{
-  max-width: 100%;
-  height: auto;
-}
-.caption {
-  height:30px;
+    top: 0px;
+    left: 50px;
 }
 .item {
     /*margin-top: 2rem;
@@ -207,9 +201,22 @@ ul li a{
   /*height:100%;*/
   transition: all 1s;
   transform: scale(1, 1) rotate(0deg) !important;
-  z-index: 9998;
+  z-index: 9998 !important;
   left:6px !important;
   top:0 !important;
+}
+.polaroid {
+  background: #fff;
+  padding: 1rem;
+  box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+  width: 100%;
+}
+.polaroid > img{
+  max-width: 100%;
+  height: auto;
+}
+.caption {
+  height:30px;
 }
 .welcome-text{
     font-size:24px;
