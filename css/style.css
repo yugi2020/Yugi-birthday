@@ -201,7 +201,7 @@ ul li a{
     transition: all 1s;
     position: absolute;
     left: 50px;
-    top: -130px;
+    top: -30px;
     z-index: 999;
 }
 .m-three-img2 .item{
