@@ -268,6 +268,33 @@ ul li a{
     top: 120px;
     left: -40px;
 }
+.m-six-img1, .m-six-img2, .m-six-img3{
+    position: absolute;
+    height: 0;
+    top: 10%;
+    left: -5px;
+    width: 90%;
+}
+.m-six-img1 .item{
+    transform: scale(0.5, 0.5) rotate(0deg);
+    width: 100%;
+    display: inline-block;
+    transition: all 1s;
+    position: absolute;
+    left: 20px;
+    top: -95px;
+    z-index: 999;
+}
+.m-six-img2 .item{
+    transform: scale(0.5, 0.5) rotate(0deg);
+    left: 20px;
+    top: 70px;
+}
+.m-six-img3 .item{
+    transform: scale(0.5, 0.5) rotate(0deg);
+    top: 200px;
+    left: 20px;
+}
 .item {
     /*margin-top: 2rem;
     filter: grayscale(100%);*/
