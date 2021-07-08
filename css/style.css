@@ -177,18 +177,18 @@ ul li a{
     transition: all 1s;
     position: absolute;
     left: -20px;
-    top: -20px;
+    top: 50px;
     z-index: 999;
 }
 .m-two-img2 .item{
     transform: scale(0.5, 0.5) rotate(0deg);
-    left: 20px;
-    top: 0px;
+    left: 10px;
+    top: -30px;
 }
 .m-two-img3 .item{
 	transform: scale(0.5, 0.5) rotate(18deg);
-    top: 0px;
-    left: 50px;
+    top: 60px;
+    left: 20px;
 }
 .item {
     /*margin-top: 2rem;
