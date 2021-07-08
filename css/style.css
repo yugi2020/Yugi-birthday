@@ -201,7 +201,7 @@ ul li a{
     top:30px;
 }
 .m-three-img1 .item{
-    transform: scale(0.5, 0.5) rotate(-90deg);
+    transform: scale(0.5, 0.5) rotate(0deg);
     width: 100%;
     display: inline-block;
     transition: all 1s;
@@ -213,11 +213,11 @@ ul li a{
 .m-three-img2 .item{
     transform: scale(0.5, 0.5) rotate(0deg);
     left: -50px;
-    top: -50px;
+    top: 0px;
 }
 .m-three-img3 .item{
 	transform: scale(0.5, 0.5) rotate(0deg);
-    top: 170px;
+    top: 200px;
     left: 70px;
 }
 .item {
