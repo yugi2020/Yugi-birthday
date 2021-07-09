@@ -463,16 +463,16 @@ ul li a{
 .m-twelve-img2 .item{
     transform: scale(0.5, 0.5) rotate(0deg);
     left: 80px;
-    top: -60px;
+    top: -20px;
 }
 .m-twelve-img3 .item{
 	transform: scale(0.5, 0.5) rotate(20deg);
-    top: 60px;
+    top: 100px;
     left: -30px;
 }
 .m-twelve-img4 .item{
     transform: scale(0.5, 0.5) rotate(0deg);
-    top: 190px;
+    top: 230px;
     left: 50px;
 
 }
