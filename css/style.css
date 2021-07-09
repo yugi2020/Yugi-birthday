@@ -125,11 +125,11 @@ ul li a{
 }
 .move-in{
     right:-12%;
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 .move{
 	right:0%;
-	transition: all 1s ease-in-out;
+	transition: all 1.5s ease-in-out;
     /*transition-delay: .5s;*/
 }
 
@@ -515,14 +515,6 @@ ul li a{
     font-style: normal;
     font-weight: 400;
 }
-/*.item:hover {
-  filter: none;
-  transform: scale(1, 1) rotate(0deg) !important;
-  transition: all 0.35s;
-}
-.item:nth-of-type(4n+2):hover{
-	z-index:9999999999999999999;
-}*/	
 #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten, #eleven, #twelve{
     position: relative;
 }
