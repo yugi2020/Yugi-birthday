@@ -102,13 +102,30 @@ ul li a{
     z-index: 99999;
     top: 3%;
 }
-.welcome-text{
+.welcome-text {
+	letter-spacing: 6px;
     font: italic bold 36px 'Dancing Script', cursive;
-    color:#5300ae;
     width:100%;
     float:left;
-    letter-spacing: 6px;
+	font-size:2rem;
+	color: #f35626;
+	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+    background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    animation: hue 10s infinite linear;
+	-webkit-animation: hue 10s infinite linear;
 }
+
+@keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
 .door-content span{
     width: 100%;
     float: left;
