@@ -381,7 +381,7 @@ ul li a{
 
 /* 8_month */
 
-.m-eight-img1, .m-eight-img2{
+.m-eight-img1, .m-eight-img2, .m-eight-img3{
     position: absolute;
     height: 0;
     top: 10%;
@@ -402,6 +402,11 @@ ul li a{
     transform: scale(0.5, 0.5) rotate(-25deg);
     left: 20px;
     top: 110px;
+}
+.m-eight-img3 .item{
+    transform: scale(0.5, 0.5) rotate(0deg);
+    top: 70px;
+    left: -50px;
 }
 
 /* 9_month */
