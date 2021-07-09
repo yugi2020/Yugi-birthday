@@ -97,11 +97,11 @@ ul li a{
 }
 .left-door-open{
     transform: translateX(-50vw);
-    transition-delay: 1.2s;
+    transition-delay: 1s;
 }
 .right-door-open{
     transform: translateX(100vw);
-    transition-delay: 1.2s;
+    transition-delay: 1s;
 }
 .left-door-close{
     transform: translateX(0vw);
@@ -466,14 +466,15 @@ ul li a{
     top: -60px;
 }
 .m-twelve-img3 .item{
-	transform: scale(0.5, 0.5) rotate(0deg);
-    top: 150px;
+	transform: scale(0.5, 0.5) rotate(20deg);
+    top: 60px;
     left: -30px;
 }
 .m-twelve-img4 .item{
     transform: scale(0.5, 0.5) rotate(0deg);
-    top: 130px;
+    top: 190px;
     left: 50px;
+
 }
 
 .item {
