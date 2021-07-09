@@ -351,19 +351,19 @@ ul li a{
     width: 90%;
 }
 .m-eight-img1 .item{
-    transform: scale(0.5, 0.5) rotate(0deg);
+    transform: scale(0.5, 0.5) rotate(20deg);
     width: 100%;
     display: inline-block;
     transition: all 1s;
     position: absolute;
     left: 20px;
-    top: -115px;
+    top: -45px;
     z-index: 999;
 }
 .m-eight-img2 .item{
-    transform: scale(0.5, 0.5) rotate(0deg);
+    transform: scale(0.5, 0.5) rotate(-25deg);
     left: 20px;
-    top: 100px;
+    top: 110px;
 }
 
 /* 9_month */
