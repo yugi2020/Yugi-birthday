@@ -40,11 +40,19 @@ ul li{
     margin: 18px 10px;
     text-align: center;
     margin-bottom: 15px;
+    background-image: linear-gradient(#fdfdfd 0%, #fff 20%, #dbd9d9 100%);
+    border-radius: 50%;
+    border: 1px solid #bcbcbc;
+    padding: 6px;
+    box-shadow: 0 2px 2px #8a8a8a;
+    /*margin: 18px 10px;
+    text-align: center;
+    margin-bottom: 15px;
 	background-image: linear-gradient(white 10%, #aeaeae 100%);
 	border-radius: 50%;
 	border:1px solid #c3c3c3;
 	padding: 6px;
-    box-shadow: 0px 2px 1px #666;
+    box-shadow: 0px 2px 1px #666;*/
 }
 ul li a{
     text-decoration: none;
@@ -52,9 +60,12 @@ ul li a{
 	font-size:14px;
 }
 .active{
-	box-shadow: 0px 0px 4px #45a921;
+    box-shadow: inset 0px 0px 5px #949494;
+    background-image: linear-gradient(#dbd9d9 0%, #fdfdfd 40%);
+    border: 1px solid #aaa;
+	/*box-shadow: 0px 0px 4px #45a921;
     background-image: linear-gradient(#aeaeae 10%, white 100%);
-    border: 1px solid #65bb46;
+    border: 1px solid #65bb46;*/
 }
 .active a{
 	color:red;
@@ -101,7 +112,7 @@ ul li a{
 .left-door-open{
     transform: translateX(-48vw);
     transition-delay: 1s;
-    box-shadow: -2px 0 5px #00000033;
+    box-shadow: 0 14px 10px #00000033;
 }
 .right-door-open{
     transform: translateX(98vw);
@@ -330,19 +341,19 @@ ul li a{
     display: inline-block;
     transition: all 1s;
     position: absolute;
-    left: 20px;
-    top: -115px;
+    left: -40px;
+    top: -40px;
     z-index: 999;
 }
 .m-seven-img2 .item{
-    transform: scale(0.5, 0.5) rotate(0deg);
-    left: 20px;
-    top: 100px;
+    transform: scale(0.5, 0.5) rotate(90deg);
+    left: 90px;
+    top: 60px;
 }
 .m-seven-img3 .item{
     transform: scale(0.5, 0.5) rotate(0deg);
-    top: 200px;
-    left: 20px;
+    top: 160px;
+    left: 0px;
 }
 
 /* 8_month */
