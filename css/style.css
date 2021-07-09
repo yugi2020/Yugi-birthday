@@ -97,11 +97,11 @@ ul li a{
 }
 .left-door-open{
     transform: translateX(-50vw);
-    transition-delay: 0.8s;
+    transition-delay: 1.2s;
 }
 .right-door-open{
     transform: translateX(100vw);
-    transition-delay: 0.8s;
+    transition-delay: 1.2s;
 }
 .left-door-close{
     transform: translateX(0vw);
