@@ -250,13 +250,13 @@ ul li a{
 }
 .m-three-img2 .item{
     transform: scale(0.5, 0.5) rotate(0deg);
-    left: -50px;
-    top: 0px;
+    left: 70px;
+    top: 240px;
 }
 .m-three-img3 .item{
 	transform: scale(0.5, 0.5) rotate(0deg);
-    top: 200px;
-    left: 70px;
+    top: 0px;
+    left: -40px;
 }
 
 /* 4_month */
@@ -310,13 +310,13 @@ ul li a{
 }
 .m-five-img2 .item{
     transform: scale(0.5, 0.5) rotate(0deg);
-    left: 50px;
-    top: 0px;
+    top: 120px;
+    left: -40px;
 }
 .m-five-img3 .item{
     transform: scale(0.5, 0.5) rotate(0deg);
-    top: 120px;
-    left: -40px;
+    left: 50px;
+    top: 0px;
 }
 
 /* 6_month */
@@ -335,17 +335,17 @@ ul li a{
     transition: all 1s;
     position: absolute;
     left: 20px;
-    top: -95px;
+    top: -100px;
     z-index: 999;
 }
 .m-six-img2 .item{
     transform: scale(0.5, 0.5) rotate(0deg);
     left: 20px;
-    top: 70px;
+    top: 80px;
 }
 .m-six-img3 .item{
     transform: scale(0.5, 0.5) rotate(0deg);
-    top: 200px;
+    top: 230px;
     left: 20px;
 }
 
