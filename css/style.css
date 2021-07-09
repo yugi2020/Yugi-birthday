@@ -103,8 +103,8 @@ ul li a{
     top: 3%;
 }
 .welcome-text{
-    font: italic bold 33px 'Dancing Script', cursive;
-    color:#ff0000;
+    font: italic bold 36px 'Dancing Script', cursive;
+    color:#5300ae;
     width:100%;
     float:left;
 }
@@ -112,10 +112,11 @@ ul li a{
     width: 100%;
     float: left;
     margin: 25px 0;
-    font-weight: bold;
 }
 .door-content p{
-    font: italic 33px 'Dancing Script', cursive;
+    font: italic 36px 'Dancing Script', cursive;
+    float:left;
+    width:100%;
 }
 .left-door, .right-door{
     background: #ecf0f1;
