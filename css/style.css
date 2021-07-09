@@ -97,11 +97,11 @@ ul li a{
 }
 .left-door-open{
     transform: translateX(-50vw);
-    transition-delay: 1s;
+    transition-delay: 0.8s;
 }
 .right-door-open{
     transform: translateX(100vw);
-    transition-delay: 1s;
+    transition-delay: 0.8s;
 }
 .left-door-close{
     transform: translateX(0vw);
@@ -393,6 +393,38 @@ ul li a{
 
 /* 10_month */
 
+.m-ten-img1, .m-ten-img2, .m-ten-img3, .m-ten-img4{
+    position: absolute;
+    height: 0;
+    top: 10%;
+    left: -5px;
+    width: 90%;
+}
+.m-ten-img1 .item{
+    transform: scale(0.5, 0.5) rotate(0deg);
+    width: 100%;
+    display: inline-block;
+    transition: all 1s;
+    position: absolute;
+    left: -50px;
+    top: -150px;
+    z-index: 999;
+}
+.m-ten-img2 .item{
+    transform: scale(0.5, 0.5) rotate(0deg);
+    left: 80px;
+    top: -60px;
+}
+.m-ten-img3 .item{
+	transform: scale(0.5, 0.5) rotate(0deg);
+    top: 150px;
+    left: -30px;
+}
+.m-ten-img4 .item{
+    transform: scale(0.5, 0.5) rotate(0deg);
+    top: 130px;
+    left: 50px;
+}
 
 /* 11_month */
 
