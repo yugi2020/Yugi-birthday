@@ -365,18 +365,18 @@ ul li a{
     transition: all 1s;
     position: absolute;
     left: -40px;
-    top: -40px;
+    top: -80px;
     z-index: 999;
 }
 .m-seven-img2 .item{
-    transform: scale(0.5, 0.5) rotate(90deg);
-    left: 90px;
-    top: 60px;
+    transform: scale(0.5, 0.5) rotate(30deg);
+    left: 60px;
+    top: 70px;
 }
 .m-seven-img3 .item{
     transform: scale(0.5, 0.5) rotate(0deg);
-    top: 160px;
-    left: 0px;
+    top: 150px;
+    left: -30px;
 }
 
 /* 8_month */
@@ -400,13 +400,13 @@ ul li a{
 }
 .m-eight-img2 .item{
     transform: scale(0.5, 0.5) rotate(-25deg);
-    left: 20px;
-    top: 110px;
+    left: 50px;
+    top: 160px;
 }
 .m-eight-img3 .item{
     transform: scale(0.5, 0.5) rotate(0deg);
-    top: 70px;
-    left: -50px;
+    top: 100px;
+    left: -30px;
 }
 
 /* 9_month */
