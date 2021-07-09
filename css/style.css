@@ -41,9 +41,10 @@ ul li{
     text-align: center;
     margin-bottom: 15px;
 	background-image: linear-gradient(white 10%, #aeaeae 100%);
-	border-radius: 25%;
-	border:1px solid #848484;
-	padding: 2px;
+	border-radius: 50%;
+	border:1px solid #c3c3c3;
+	padding: 6px;
+    box-shadow: 0px 2px 1px #666;
 }
 ul li a{
     text-decoration: none;
