@@ -110,13 +110,13 @@ ul li a{
     border-left:2px solid #abb7b5;
 }
 .left-door-open{
-    transform: translateX(-48vw);
-    transition-delay: 1s;
+    transform: translateX(-49vw);
+    transition-delay: 2s;
     box-shadow: 0 14px 10px #00000033;
 }
 .right-door-open{
     transform: translateX(98vw);
-    transition-delay: 1s;
+    transition-delay: 2s;
 }
 .left-door-close{
     transform: translateX(0vw);
