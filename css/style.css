@@ -86,13 +86,36 @@ ul li a{
     height:100vh;
 }
 .door-content{
-    position:absolute;
+    /*position:absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: 100vh;
+    text-align: center;
+    z-index: 99999;*/
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    margin: 0 auto;
     z-index: 99999;
+    top: 3%;
+}
+.welcome-text{
+    font: italic bold 30px 'Short Stack', cursive;
+    color:#ff0000;
+    width:100%;
+    float:left;
+}
+.door-content span{
+    width:100%;
+    float:left;
+    margin:20px 0;
+    font-weight: bold;
+}
+.door-content p{
+    font: italic 30px 'Short Stack';
 }
 .left-door, .right-door{
     background: #ecf0f1;
@@ -524,11 +547,6 @@ ul li a{
 }
 .caption {
   height:30px;
-}
-.welcome-text{
-    font-size:24px;
-    font-style: normal;
-    font-weight: 400;
 }
 #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten, #eleven, #twelve{
     position: relative;
