@@ -103,19 +103,19 @@ ul li a{
     top: 3%;
 }
 .welcome-text{
-    font: italic bold 30px 'Short Stack', cursive;
+    font: italic bold 33px 'Dancing Script', cursive;
     color:#ff0000;
     width:100%;
     float:left;
 }
 .door-content span{
-    width:100%;
-    float:left;
-    margin:20px 0;
+    width: 100%;
+    float: left;
+    margin: 25px 0;
     font-weight: bold;
 }
 .door-content p{
-    font: italic 30px 'Short Stack';
+    font: italic 33px 'Dancing Script', cursive;
 }
 .left-door, .right-door{
     background: #ecf0f1;
