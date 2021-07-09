@@ -368,6 +368,28 @@ ul li a{
 
 /* 9_month */
 
+.m-nine-img1, .m-nine-img2{
+    position: absolute;
+    height: 0;
+    top: 10%;
+    left: -5px;
+    width: 90%;
+}
+.m-nine-img1 .item{
+    transform: scale(0.5, 0.5) rotate(0deg);
+    width: 100%;
+    display: inline-block;
+    transition: all 1s;
+    position: absolute;
+    left: -50px;
+    top: -55px;
+    z-index: 999;
+}
+.m-nine-img2 .item{
+    transform: scale(0.5, 0.5) rotate(0deg);
+    left: 70px;
+    top: 100px;
+}
 
 /* 10_month */
 
