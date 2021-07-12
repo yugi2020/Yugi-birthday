@@ -100,14 +100,15 @@ ul li a{
     text-align: center;
     margin: 0 auto;
     z-index: 99999;
-    top: 3%;
+    top: 2%;
 }
 .welcome-text {
 	letter-spacing: 6px;
     font: italic bold 36px 'Dancing Script', cursive;
     width:100%;
     float:left;
-	font-size:2rem;
+	font-size:40px;
+    line-height: 60px;
 	color: #f35626;
 	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
     background-clip: text;
