@@ -175,11 +175,11 @@ ul li a{
     justify-content: center;
 }
 .back-btn{
-	position: fixed;
+    position: fixed;
     width: 50px;
-    bottom: 10px;
-    right: 10px;
-    z-index:999;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
 }
 .move-in{
     right:-12%;
