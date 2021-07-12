@@ -102,6 +102,16 @@ ul li a{
     z-index: 99999;
     top: 2%;
 }
+.door-content a{
+    margin: 0 auto;
+    text-decoration: none;
+    background: #d33939;
+    padding: 10px 30px;
+    top: 50px;
+    position: relative;
+    border-radius: 5px;
+    color: #fff;
+}
 .welcome-text {
 	letter-spacing: 6px;
     font: italic bold 36px 'Dancing Script', cursive;
