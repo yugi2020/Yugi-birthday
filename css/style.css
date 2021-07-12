@@ -354,7 +354,7 @@ ul li a{
     transition: all 1s;
     position: absolute;
     left: 20px;
-    top: -100px;
+    top: -70px;
     z-index: 999;
 }
 .m-six-img2 .item{
@@ -364,7 +364,7 @@ ul li a{
 }
 .m-six-img3 .item{
     transform: scale(0.5, 0.5) rotate(0deg);
-    top: 290px;
+    top: 270px;
     left: 20px;
 }
 
