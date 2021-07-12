@@ -177,11 +177,9 @@ ul li a{
 .back-btn{
     position: fixed;
     width: 50px;
-   /* bottom: 20px;
-    right: 20px;*/
-    z-index: 999;
-    top: 20px;
+    bottom: 20px;
     right: 20px;
+    z-index: 999;
 }
 .move-in{
     right:-12%;
