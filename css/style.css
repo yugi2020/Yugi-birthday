@@ -101,6 +101,7 @@ ul li a{
     margin: 0 auto;
     z-index: 99999;
     top: 2%;
+    transition: fade 1.5s ease-in-out;
 }
 .door-content button{
     margin: 0 auto;
@@ -113,10 +114,6 @@ ul li a{
     border: none;
     border-radius: 5px;
     color: #fff;
-}
-.door-content-hide{
-    opacity: 0;
-    transition: all 1s ease-in-out;
 }
 .welcome-text {
 	letter-spacing: 6px;
