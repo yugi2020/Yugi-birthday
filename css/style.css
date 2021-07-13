@@ -113,10 +113,10 @@ ul li a{
     border: none;
     border-radius: 5px;
     color: #fff;
-    transition: all 1s ease-in-out;
 }
-.door-content button:active{
-    box-shadow: none;
+.door-content-hide{
+    opacity: 0;
+    transition: all 1s ease-in-out;
 }
 .welcome-text {
 	letter-spacing: 6px;
